@@ -1,0 +1,1 @@
+(() => {const room=document.querySelector('.room'),cake=room.querySelector('[data-open="cake"]');const table=document.createElement('div');table.className='cake-table';table.setAttribute('aria-hidden','true');cake.before(table)})();
